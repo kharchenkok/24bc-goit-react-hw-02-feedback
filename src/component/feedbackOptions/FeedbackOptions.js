@@ -5,8 +5,8 @@ import PropTypes from 'prop-types'
 import style from './FeedbackOptions.module.css'
 
 const FeedbackOptions = ({options,onLeaveFeedback}) => {
-    console.log('options',options);
-    console.log(Object.entries(options).map(option=>option));
+    // console.log('options',options);
+    // console.log(Object.entries(options).map(option=>option));
     return (
         <div className={style.button_wrapper}>
             {Object.entries(options).map(option=>(

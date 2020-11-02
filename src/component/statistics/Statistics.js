@@ -4,8 +4,8 @@ import PropTypes from 'prop-types'
 import style from './Statistics.module.css'
 
 const Statistics = ({options,total, positivePercentage}) => {
-    console.log(options);
-    console.log(total);
+    // console.log(options);
+    // console.log(total);
     return (
         <ul className={style.statistic__list}>
         {Object.entries(options).map(option => (
