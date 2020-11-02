@@ -1,0 +1,17 @@
+.button{
+    width: 100px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5%;
+    background-color: white;
+    font-size: large;
+}
+
+.button:hover{
+    background-color:gray;
+    color: white;
+}
+
+.button_wrapper{
+    text-align: center;
+}
